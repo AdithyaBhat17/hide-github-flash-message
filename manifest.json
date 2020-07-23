@@ -1,0 +1,13 @@
+{
+  "name": "oof",
+  "version": "1.0",
+  "description": "Hide Github payment error flash",
+  "permissions": ["activeTab"],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://github.com/*"]
+    }
+  ]
+}
